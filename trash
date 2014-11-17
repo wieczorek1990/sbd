@@ -1,0 +1,25 @@
+
+// ResultSet rs;
+// PreparedStatement tracks =
+// sbd
+// .getConnection()
+// .prepareStatement(
+// "SELECT tracks FROM Track WHERE idAlbum = ?;");
+// tracks.setInt(1, album);
+// rs = tracks.executeQuery();
+// rs.next();
+// int maxTracks = rs.getInt(1);
+// try {
+// if (Integer
+// .parseInt((values.get(values
+// .size() - 1))) > maxTracks) {
+// JOptionPane
+// .showMessageDialog(
+// sbd.getFrame(),
+// "Track number must be less or equal Album tracks count.");
+// return;
+// }
+// } catch
+// (NumberFormatException e) {
+// return;
+// }
